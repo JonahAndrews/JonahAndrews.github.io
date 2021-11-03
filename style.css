@@ -10,6 +10,7 @@ body {
 
 }
 
+
 /*.center {
     display: block;
     margin-left: auto;
@@ -27,10 +28,25 @@ body {
     padding: 10px;
     background: yellow;
     margin: 10px;
+    border-radius: 7px;
 }
 
 .assignment img{
     width:200px;
-    padding: 10px;
+    border: 4px solid #0a968fab;
+    margin: 10px;
     
+}
+
+.assignment img:hover{
+    border: 4px dashed #030592ab;
+}
+
+a {
+    text-decoration: none;
+    color: purple;
+}
+
+a:hover {
+    color: violet;
 }

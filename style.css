@@ -23,9 +23,15 @@ body {
     height: 500px;
 }*/
 
-.assignment {
+.assignments {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.assignment {
+    width: 22%;
     padding: 10px;
+    padding: 20px 10px;
     background: yellow;
     margin: 10px;
     border-radius: 7px;
@@ -35,11 +41,17 @@ body {
     width:200px;
     border: 4px solid #0a968fab;
     margin: 10px;
+    display: block;
+    margin: auto;
     
 }
 
 .assignment img:hover{
     border: 4px dashed #030592ab;
+}
+
+h2 {
+    text-align: center;
 }
 
 a {

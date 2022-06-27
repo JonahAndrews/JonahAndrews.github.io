@@ -1,5 +1,5 @@
 body {
-    background-color: cornflowerblue;
+    background-color: rgb(149, 21, 21);
     font-family: Arial, Helvetica, sans-serif;
     
 }
@@ -26,7 +26,8 @@ body {
 
 a {
     text-decoration: none;
-    color: purple;
+    color: rgb(148, 121, 247);
+    /*color: purple;*/
 }
 
 a:hover {
@@ -85,6 +86,21 @@ a:hover {
         border: 10px red;
         margin-top: 70px;
         background-color: white;
+        border-radius: 7px;
+    }
+
+    .projects_box {
+        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 128px;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        border: 10px red;
+        margin-top: 70px;
+        background-color: white;
+        border-radius: 7px;
     }
 
     .smaller_text {
@@ -94,10 +110,12 @@ a:hover {
     .stories {
         display: flex;
         flex-wrap: wrap;
+        /*padding-left: 30px;
+        padding-right: 15px;*/
     }
     
     .story {
-        width: 22%;
+        width: 22.25%;
         padding: 10px;
         padding: 20px 10px;
         background: yellow;
@@ -152,5 +170,39 @@ a:hover {
     }
 
     .entry h2 {
+        text-align: center;
+    }
+
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .project {
+        width: 47.25%;
+        padding: 10px;
+        padding: 20px 10px;
+        background: yellow;
+        margin: 10px;
+        border-radius: 7px;
+    }
+
+    .project img{
+        width: 30%;
+        height: 69%;/*may be removed if images act up*/
+        border: 4px solid #0a968fab;
+        margin: 10px;
+        display:flexbox;
+        margin: auto;
+        margin-left: 9%;
+        margin-right: 9%;
+        
+    }
+    
+    .project img:hover{
+        border: 4px dashed #030592ab;
+    }
+
+    .project h2 {
         text-align: center;
     }
